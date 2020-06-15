@@ -27,7 +27,7 @@ namespace webapp
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World From .Net container on Linux !");
             });
         }
     }
