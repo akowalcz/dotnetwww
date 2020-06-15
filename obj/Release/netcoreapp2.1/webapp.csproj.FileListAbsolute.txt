@@ -1,0 +1,14 @@
+/home/akowalcz/vcode/work2/webapp/bin/Release/netcoreapp2.1/webapp.deps.json
+/home/akowalcz/vcode/work2/webapp/bin/Release/netcoreapp2.1/webapp.runtimeconfig.json
+/home/akowalcz/vcode/work2/webapp/bin/Release/netcoreapp2.1/webapp.runtimeconfig.dev.json
+/home/akowalcz/vcode/work2/webapp/bin/Release/netcoreapp2.1/webapp.dll
+/home/akowalcz/vcode/work2/webapp/bin/Release/netcoreapp2.1/webapp.pdb
+/home/akowalcz/vcode/work2/webapp/obj/Release/netcoreapp2.1/webapp.csprojAssemblyReference.cache
+/home/akowalcz/vcode/work2/webapp/obj/Release/netcoreapp2.1/webapp.csproj.CoreCompileInputs.cache
+/home/akowalcz/vcode/work2/webapp/obj/Release/netcoreapp2.1/webapp.RazorAssemblyInfo.cache
+/home/akowalcz/vcode/work2/webapp/obj/Release/netcoreapp2.1/webapp.RazorAssemblyInfo.cs
+/home/akowalcz/vcode/work2/webapp/obj/Release/netcoreapp2.1/webapp.AssemblyInfoInputs.cache
+/home/akowalcz/vcode/work2/webapp/obj/Release/netcoreapp2.1/webapp.AssemblyInfo.cs
+/home/akowalcz/vcode/work2/webapp/obj/Release/netcoreapp2.1/webapp.RazorTargetAssemblyInfo.cache
+/home/akowalcz/vcode/work2/webapp/obj/Release/netcoreapp2.1/webapp.dll
+/home/akowalcz/vcode/work2/webapp/obj/Release/netcoreapp2.1/webapp.pdb
