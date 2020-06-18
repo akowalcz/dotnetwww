@@ -27,7 +27,7 @@ namespace webapp
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World From .Net Core container on Linux Jun 18 at 10:30CET!");
+                await context.Response.WriteAsync("Hello World From .Net Core container on Linux Jun 18 at 11:32!");
             });
         }
     }
