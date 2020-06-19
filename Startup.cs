@@ -37,6 +37,20 @@ namespace webapp
                 await context.Response.WriteAsync("Hello World From .Net Core container Jun 19 at 11:32! running on: ");
                 
                 
+                if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
+                {
+                     await context.Response.WriteAsync("PLATFORM: OSX");            
+                }
+
+                if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
+                {
+                     await context.Response.WriteAsync("PLATFORM: Linux");
+                }
+
+                if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+                {
+                     await context.Response.WriteAsync("PLATFORM: Windows");
+                }
                 
                 await context.Response.WriteAsync("\Platform: " + platform + "\nDatabase name: " + dbName  + "\nUser name: "  + dbUser + "\nDB passwd: " + dbPass);
             });
