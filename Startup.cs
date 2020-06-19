@@ -28,10 +28,11 @@ namespace webapp
             app.Run(async (context) =>
             {
                 string dbName = Environment.GetEnvironmentVariable("DBName");
-                string dbUser = Environment.GetEnvironmentVariable("DBUser"); 
+                string dbUser = Environment.GetEnvironmentVariable("DBUser");
+                string dbPass = Environment.GetEnvironmentVariable("dbpasswd");
                 
                 await context.Response.WriteAsync("Hello World From .Net Core container on Linux Jun 19 at 11:32!");
-                await context.Response.WriteAsync("\nDatabase name: " + dbName  + " User name: "  + dbUser);
+                await context.Response.WriteAsync("\nDatabase name: " + dbName  + " User name: "  + dbUser + " DB passwd" + dbPass);
             });
         }
     }
