@@ -31,7 +31,7 @@ namespace webapp
                 string dbUser = Environment.GetEnvironmentVariable("DBUser"); 
                 
                 await context.Response.WriteAsync("Hello World From .Net Core container on Linux Jun 19 at 11:32!");
-                await context.Response.WriteAsync("\nDatabase name: " + dbName  + "User name: "  + dbUser);
+                await context.Response.WriteAsync("\nDatabase name: " + dbName  + " User name: "  + dbUser);
             });
         }
     }
