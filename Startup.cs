@@ -38,18 +38,17 @@ namespace webapp
                 
                 if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
                 {
-                    Console.WriteLine("PLATFORM: OSX");
-            
+                     await context.Response.WriteAsync("PLATFORM: OSX");            
                 }
 
                 if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
                 {
-                    Console.WriteLine("PLATFORM: Linux");
+                     await context.Response.WriteAsync("PLATFORM: Linux");
                 }
 
                 if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
                 {
-                    Console.WriteLine("PLATFORM: Windows");
+                     await context.Response.WriteAsync("PLATFORM: Windows");
                 }
                 
                 
