@@ -32,8 +32,7 @@ namespace webapp
                 string dbName = Environment.GetEnvironmentVariable("DBName");
                 string dbUser = Environment.GetEnvironmentVariable("DBUser");
                 string dbPass = Environment.GetEnvironmentVariable("dbpasswd");
-                
-                
+                                
                 await context.Response.WriteAsync("Hello World From .Net Core container Jun 19 at 11:32! running on: ");
                 
                 if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
@@ -49,8 +48,7 @@ namespace webapp
                 if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
                 {
                      await context.Response.WriteAsync("Windows");
-                }    
-            
+                }                
                 
                 await context.Response.WriteAsync("\nDatabase name: " + dbName  + "\nUser name: "  + dbUser + "\nDB passwd: " + dbPass);
             });
