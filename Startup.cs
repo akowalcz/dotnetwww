@@ -33,7 +33,7 @@ namespace webapp
                 string dbUser = Environment.GetEnvironmentVariable("DBUser");
                 string dbPass = Environment.GetEnvironmentVariable("dbpasswd");
                                 
-                await context.Response.WriteAsync("Hello World From .Net Core container Jun 19 at 11:32! running on: ");
+                await context.Response.WriteAsync("Hello World From .Net Core container Jun 20 at 11:32! running on: ");
                 
                 if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
                 {
