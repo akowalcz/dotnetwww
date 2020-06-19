@@ -32,7 +32,7 @@ namespace webapp
                 string dbPass = Environment.GetEnvironmentVariable("dbpasswd");
                 
                 await context.Response.WriteAsync("Hello World From .Net Core container on Linux Jun 19 at 11:32!");
-                await context.Response.WriteAsync("\nDatabase name: " + dbName  + " User name: "  + dbUser + " DB passwd: " + dbPass);
+                await context.Response.WriteAsync("\nDatabase name: " + dbName  + "\nUser name: "  + dbUser + "\nDB passwd: " + dbPass);
             });
         }
     }
